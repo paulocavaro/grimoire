@@ -1,0 +1,17 @@
+# deps / build
+node_modules/
+.next/
+out/
+
+# env — API keys never leave the machine
+.env
+.env.*
+!.env.example
+
+# local tooling (third-party skills, run logs)
+.claude/
+.loop/runs/
+
+# misc
+.DS_Store
+*.log
